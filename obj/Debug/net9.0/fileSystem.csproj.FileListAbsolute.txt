@@ -12,3 +12,4 @@ C:\Users\Asus\Desktop\fileSystem\obj\Debug\net9.0\refint\fileSystem.dll
 C:\Users\Asus\Desktop\fileSystem\obj\Debug\net9.0\fileSystem.pdb
 C:\Users\Asus\Desktop\fileSystem\obj\Debug\net9.0\fileSystem.genruntimeconfig.cache
 C:\Users\Asus\Desktop\fileSystem\obj\Debug\net9.0\ref\fileSystem.dll
+C:\Users\Asus\Desktop\fileSystem\obj\Debug\net9.0\fileSystem.sourcelink.json

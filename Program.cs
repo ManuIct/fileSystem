@@ -50,5 +50,17 @@ string GetSeparatore(int livello)
     s += "|-- ";
     return s;
 }
-var root = new DirectoryInfo(@"E:\");
-Esamina(root);
+// var root = new DirectoryInfo(@"Desktop");
+// Esamina(root);
+
+Console.Write("Inserisci il percorso della cartella da scansionare:");
+string? percorso = Console.ReadLine();
+
+if (!string.IsNullOrWhiteSpace(percorso) && Directory.Exists(percorso))
+{
+    var root = new DirectoryInfo(percorso);
+    Esamina(root);
+}
+else {
+    Console.WriteLine("Percorso non valido o cartella inesistente");
+}
